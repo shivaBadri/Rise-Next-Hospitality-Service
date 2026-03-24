@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospitality Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #1e293b;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px;
+      text-align: center;
+      background: linear-gradient(to right, #020617, #1e293b);
+    }
+    .container {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #facc15;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+    }
+  </style>
+</head>
+<body>
+
+<header>Hospitality Services</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#restaurants">Restaurants</a>
+  <a href="#farmhouses">Farm Houses</a>
+  <a href="#venues">Event Venues</a>
+  <a href="#rooms">Room Booking</a>
+</nav>
+
+<section class="hero">
+  <h1>Welcome to Premium Hospitality</h1>
+  <p>Explore Restaurants, Farm Houses, Event Venues & Stay Options</p>
+</section>
+
+<section class="container">
+  <div class="card" id="restaurants">
+    <h2>Restaurants</h2>
+    <p>Discover top-rated restaurants.</p>
+    <a href="#" class="btn">Explore</a>
+  </div>
+
+  <div class="card" id="farmhouses">
+    <h2>Farm Houses</h2>
+    <p>Book peaceful farm houses.</p>
+    <a href="#" class="btn">Explore</a>
+  </div>
+
+  <div class="card" id="venues">
+    <h2>Event Venues</h2>
+    <p>Find venues for events.</p>
+    <a href="#" class="btn">Explore</a>
+  </div>
+
+  <div class="card" id="rooms">
+    <h2>Room Booking / Stay</h2>
+    <p>Book rooms and hotels.</p>
+    <a href="#" class="btn">Book Now</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Hospitality Services
+</footer>
+
+</body>
+</html>
